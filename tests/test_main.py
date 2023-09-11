@@ -1,5 +1,5 @@
 import unittest
-from ids_706_python_template.base.cli import test  # Import the function you want to test
+from ids_706_python_template.cli import test  # Import the function you want to test
 
 #example of a test
 class TestTest(unittest.TestCase):
