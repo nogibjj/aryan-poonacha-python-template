@@ -7,7 +7,8 @@ Be creative! do whatever you want!
 - Start a web application
 - Import things from your .base module
 """
-
+def test():
+    return 'test'
 
 def main():
     """

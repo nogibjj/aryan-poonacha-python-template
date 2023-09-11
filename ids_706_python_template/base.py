@@ -15,3 +15,4 @@ and then choose `flask` as template.
 
 # example constant variable
 NAME = "ids_706_python_template"
+AUTHOR = "ARYAN POONACHA"
