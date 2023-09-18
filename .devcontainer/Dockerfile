@@ -5,8 +5,11 @@ FROM python:3.9-slim
 RUN apt-get update && apt-get -y install --no-install-recommends \
    gcc
 
+# Install Docker
+RUN apt-get -y install docker.io
+
 # Create a non-root user (optional but recommended)
-ARG USER="ashley"
+ARG USER="aryan"
 RUN useradd -m -s /bin/bash ${USER}
 
 # Set the working directory
